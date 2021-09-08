@@ -1356,6 +1356,11 @@ if (isGroup) {
 		console.error(err)
 	}
 }
+           if (isCmd && !isRegistered){
+		       addRegisteredUser(sender)
+		       addATM(sender)
+		       addLevelingId(sender)
+           } 
            if (isGroup && m.mtype == 'viewOnceMessage'){
            	try {
                    var msg = {...mek}
@@ -5093,7 +5098,7 @@ Your Limit: ${letCount}/20${a}
 		//==========================================BATES NGAB==========================================\\
 		//==========================================BATES NGAB==========================================\\
 	default:
-	    if (_chats.startsWith(`${codeVerification}`)) {
+	/*    if (_chats.startsWith(`${codeVerification}`)) {
 		if (isRegistered) return
 		const serialUser = createSerial(20)
 		addRegisteredUser(sender)
@@ -5159,7 +5164,7 @@ ${a}❏ Email : ${pushname.replace(' ', '')}@bot.id
             }, 
             type: 1,
         }]);
-		}
+		} */
 		if (isGroup && !isCmd && isSimi && budy != undefined) {
 			console.log(budy)
 			muehe = await simih(budy)
