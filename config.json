@@ -7,12 +7,12 @@
     "authorSticker" : "Created By PatrickBot",
     "packSticker" : "Follow @_pa7rick :)",
     "memberLimits" : 13,
-    "zeksApi" : "D40LVbLehmSk17EiOGhWMtAjMe6",
+    "zeksApi" : "https://api.zeks.xyz/ web apinya",
     "zahirApi" : "zahirgans",
-    "leysApi" : "dappakntlll",
-    "xteamApi" : "8690f8be69460008",
-    "dappaApi" : "HelloWorld",
-    "zekaisApi" : "AHXTxgw4",
+    "leysApi" : "https://leyscoders-api.herokuapp.com/ web apinya",
+    "xteamApi" : "https://api.xteam.xyz/ web apinya",
+    "dappaApi" : "https://dapuhy-api.herokuapp.com/ web apinya",
+    "zekaisApi" : "https://zekais-api.herokuapp.com/ web apinya",
     "keyprem" : "pa7rickbot",
     "gamewaktu" : 100
  }
